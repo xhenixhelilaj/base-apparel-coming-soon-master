@@ -6,6 +6,7 @@ box-sizing: border-box;
 }
 body{
     background-color:#FFF9F9;
+    background-image: url(/images/bg-pattern-desktop.svg);
 }
 main{
     display: flex;
@@ -27,14 +28,36 @@ main{
     display: flex;
     color: #CE9797;
 }
-.search{
-    font-family: 'Josefin Sans', sans-serif;
-}
+
 p{
     color: #CE9797;
     margin-top: 20px;
     line-height: 25px;
     margin-right: 60px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+}
+.search{
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+    border: solid 0.7px #CE9797;
+    padding-left: 30px;
+    background-color: transparent;
+}
+.submit{
+    width: 50px;
+    height: 50px;
+    border: solid 0.7px #CE9797;
+    border-radius: 25px;
+    background-image: url(/images/icon-arrow.svg), linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+
 }
 img{
     max-width: 465px;
