@@ -56,7 +56,9 @@ form{
     background-image: url(/images/icon-arrow.svg), linear-gradient(135deg, #f8bfbf, #ee8c8c);
     background-repeat: no-repeat;
     background-position: center;
-    width: 70px;
+    width: 80px;
+    position: relative;
+    left: -80px;
 
 }
 img{
