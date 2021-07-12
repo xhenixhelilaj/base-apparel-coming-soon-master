@@ -45,26 +45,19 @@ p{
 form{
     display: flex;
 }
-.search{
-    border: solid 0.5px #CE9797 ;
-    background-color: transparent;
-    color: #CE9797;
-    border-radius: 20px;
-    padding: 15px 20px;
-    width: 400px;
-    font-family: "Josefin sans", sans-serif;
-    outline: none;
+.email-form{
+    width: 27.5rem;
 }
-.submit{
-    padding:15px;
-    background-image: url(/images/icon-arrow.svg), linear-gradient(135deg, #f8bfbf, #ee8c8c);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    border-radius: 40px;
-    width: 75px;
-    position: relative;
-    left: -30px;
+input{
+    border:none;
+    border: 1px solid #e1cfd1;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    outline: none;
+    width: 100%;
+    font-size: 0.85rem;
+    font-family: "Josefin Sans", sans-serif;
+    background: none;    
 }
 @media (max-width: 600px){
     *{
