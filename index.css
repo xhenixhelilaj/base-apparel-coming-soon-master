@@ -59,6 +59,9 @@ input{
     font-family: "Josefin Sans", sans-serif;
     background: none;    
 }
+input::-webkit-input-placeholder{
+    color: #e1cfd1;
+}
 @media (max-width: 600px){
     *{
         margin: 0;
