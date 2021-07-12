@@ -57,11 +57,14 @@ input{
     width: 100%;
     font-size: 0.85rem;
     font-family: "Josefin Sans", sans-serif;
-    background: none;    
+    background: none;
 }
 input::-webkit-input-placeholder{
     color: #e1cfd1;
 }
+form input:focus {
+    border: 2px solid #f96262;
+  }
 @media (max-width: 600px){
     *{
         margin: 0;
