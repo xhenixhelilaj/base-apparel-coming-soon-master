@@ -35,15 +35,15 @@
         </p>
       </div>
       <div class="email-form">
-        <form novalidate>
-          <label for="email">Email</label>
-          <div>
-            <input type="email" id="email" placeholder="Email Address" />
+        <form id="form" action="#">
+          <label for="email"></label>
+          <div class="inputBox">
+            <input type="email" id="email" placeholder="Email Address" onkeydown="validation()" />
             <button>
-              <img src="/images/icon-arrow.svg">
+              <img src="/images/icon-arrow.svg" >
             </button>
-            <img src="/images/icon-error.svg" class="error-icon">
-            <small>Error Message</small>
+            <small id="icon"></small>
+            <small id="text"></small>
           </div>
         </form>
       </div>
